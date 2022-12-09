@@ -1,0 +1,24 @@
+/* body{
+    background-color: red;
+} */
+
+.nav-bar{
+    flex-direction: column;
+}
+
+.services{
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    text-align: center;
+    align-items: center;
+}
+
+.clients {
+    overflow: hidden;
+}
+
+#home::before{
+    height: 827px;
+}
+

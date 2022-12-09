@@ -1,0 +1,475 @@
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+
+}
+
+header li {
+    padding: 15px 15px;
+    list-style: none;
+
+}
+
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+header li:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+
+
+
+
+
+header {}
+
+
+.nav-bar::before {
+    background-color: rgba(0, 0, 0, 0.402);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.logo img {
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+.logo {}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    /* height: 100vh;
+    width: 100vw; */
+    /* border: 2px solid red; */
+}
+
+section {}
+
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.21); */
+    /* height: 500px; */
+    height: 400px;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    /* opacity: ; */
+    /* padding: 30px 80px; */
+    padding: 10px 6px;
+
+
+}
+
+#home p {
+
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 2px;
+    opacity: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#home button {
+    padding: 10px 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    font-size: 1.2rem;
+
+
+}
+
+
+
+#home button:hover {
+    background-color: #63c61e;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+
+
+}
+
+#home h2 {
+    font-size: 3rem;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 20;
+}
+
+
+#home::before {
+    background-image: url("https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.9;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+
+
+
+}
+
+
+
+
+.services-container {}
+
+
+#headline {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px;
+    margin-top: 5px;
+    background-color: #63c61e;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px #63c61e;
+}
+
+
+
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-evenly; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* background-color: bisque; */
+    /* padding: 30px 10px; */
+    /* margin-top: 100px; */
+    padding: 20px 20px;
+}
+
+
+/* .services::before {
+    
+    
+} */
+
+#service {
+    margin: 5px 5px;
+    border: 2px solid red;
+    padding: 30px 0px;
+    background-color: rgb(213, 200, 255);
+    background-image: url(https://images.pexels.com/photos/349610/pexels-photo-349610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    /* box-shadow: 2px 2px 30px rgb(255, 0, 0) */
+    /* display: block; */
+    /* width: 350px; */
+}
+
+#service img {
+    height: 160px;
+    border-radius: 10px;
+    /* display: block;
+    margin: auto; */
+
+
+
+
+}
+
+.services p {
+    padding: 10px 10px;
+    font-size: 1.2rem;
+}
+
+.services h1 {
+    padding: 10px 10px;
+    font-size: 2rem;
+}
+
+
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url(https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    padding: 10px 10px;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 54%;
+
+
+}
+
+/* .clients::before{
+    position: absolute;
+    content: "";
+    background-image: url(https://media.istockphoto.com/id/953140058/photo/cooking-nd-seasoning-spices-border-on-black-slate-background.jpg?b=1&s=170667a&w=0&k=20&c=8Vmnl8mHhMmc2WvnEEj0RDajvg75bizccWzrTXIh2z8=);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+} */
+
+
+
+
+.clients img {
+    width: 80px;
+
+
+}
+
+#client {
+    /* border: 2px solid red; */
+    margin: 2px;
+    padding: 20px 20px;
+
+}
+
+#clients-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 2rem;
+    width: 200px;
+    background-color: #63c61e;
+    margin: auto;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    color: white;
+    box-shadow: 2px 2px 30px green;
+}
+
+
+
+
+
+.form-container h1 {
+    padding: 20px 10px;
+    font-size: 1.6rem;
+    background-color: #63c61e;
+    border-radius: 25px;
+    /* box-shadow: 2px 2px 30px greenyellow; */
+    color: white;
+    width: 170px;
+    margin: auto;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.form-group::before {
+    background-image: url("https://images.pexels.com/photos/1411677/pexels-photo-1411677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    height: 430px;
+    z-index: -1;
+    /* opacity: 1; */
+    background-repeat: no-repeat;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 40px;
+    background-size: cover;
+
+}
+
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    /* border: 2px solid red; */
+    /* padding-bottom: 25px; */
+}
+
+.form {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    width: 30%;
+
+}
+
+.form input {
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 10px;
+    /* border: 2px solid white; */
+    /* padding-bottom: 0.5rem; */
+}
+
+textarea {
+    width: 100%;
+    /* padding-bottom: 0.5rem; */
+    padding: 0px 10px;
+
+}
+
+.footer {
+    background-color: black;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+
+@media screen and (max-width: 462px) {
+    header li {
+
+        padding: 7px 7px;
+        font-size: 15px;
+    }
+
+    #home {
+        height: 577px;
+    }
+}
+
+
+@media screen and (max-width: 462px) {
+
+    #home p{
+        padding: 0px;
+     }
+    
+    
+}
+
+
+
+
+
+@media screen and (min-width: 342),
+(max-width:362px) {
+    header li {
+
+        padding: 9px 6px;
+        font-size: 14px;
+    }
+
+
+
+}
+@media screen and (min-width: 280),
+(max-width:351px) {
+    header li {
+
+        padding: 9px 5px;
+        font-size: 11px;
+        
+    }
+
+}
+
+
+@media screen and 
+(max-width:280px) {
+    #home{
+
+        height: 677px;
+        
+    }
+
+}
+
+@media screen and 
+(max-width:360px) {
+    .clients img {
+
+        width: 47px;
+        
+    }
+
+    #clients-title{
+        padding: 7px 4px;
+    font-size: 1.5rem;
+    width: 178px;
+    }
+
+    .form-container h1{
+        padding: 6px 5px;
+        font-size: 1.5rem;
+
+    }
+}
+
+
+.footer-social a{
+    color: black;
+    font-size: 30px;
+    margin: 0px 8px;
+    
+}
+
+.footer-social{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+/* #social a{
+    
+} */
+
+
+
+html{
+scroll-behavior: smooth;
+}
